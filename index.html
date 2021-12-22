@@ -171,16 +171,18 @@
             <h3 style="text-align: center;">Contacta conmigo</h3>
             <form id="contact-form" action="https://formsubmit.co/oscar.sierrach@gmail.com" method="POST">
                 <label>Nombre</label>
-                <input class="input-field" type="text" name="name" required>
+                <input class="input-field" type="text" name="Name" required>
 
                 <label>Asunto</label>
-                <input class="input-field" type="text" name="Subject">
+                <input class="input-field" type="text" name="_subject">
 
                 <label>Correo</label>
                 <input class="input-field" type="text" name="email" required>
 
                 <label>Mensaje</label>
-                <textarea class="input-field" name="message" required></textarea>
+                <textarea class="input-field" name="Message" required></textarea>
+
+                <input type="hidden" name="_next" value="https://darth7ghost.github.io/oscar-sierra/gracias.html">
 
                 <input id="submit-btn" type="submit" value="Enviar">
             </form>
